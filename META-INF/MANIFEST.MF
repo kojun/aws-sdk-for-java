@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: AWS SDK for Java
 Bundle-SymbolicName: com.amazonaws.sdk;singleton:=true
-Bundle-Version: 1.1.5
+Bundle-Version: 1.1.8
 Bundle-Vendor: Amazon Technologies, Inc
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: org.apache.commons.codec;bundle-version="1.3.0",
@@ -19,12 +19,17 @@ Export-Package: com.amazonaws,
  com.amazonaws.auth.policy.resources,
  com.amazonaws.handlers,
  com.amazonaws.http,
+ com.amazonaws.sdk,
  com.amazonaws.services.autoscaling,
  com.amazonaws.services.autoscaling.model,
  com.amazonaws.services.autoscaling.model.transform,
+ com.amazonaws.services.cloudformation,
+ com.amazonaws.services.cloudformation.model,
+ com.amazonaws.services.cloudformation.model.transform,
  com.amazonaws.services.cloudwatch,
  com.amazonaws.services.cloudwatch.model,
  com.amazonaws.services.cloudwatch.model.transform,
+ com.amazonaws.services.ec2,
  com.amazonaws.services.ec2.model,
  com.amazonaws.services.ec2.model.transform,
  com.amazonaws.services.ec2.util,
@@ -67,6 +72,7 @@ Export-Package: com.amazonaws,
  com.amazonaws.services.sns.model,
  com.amazonaws.services.sns.model.transform,
  com.amazonaws.services.sns.util,
+ com.amazonaws.services.sqs,
  com.amazonaws.services.sqs.model,
  com.amazonaws.services.sqs.model.transform,
  com.amazonaws.transform,
